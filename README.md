@@ -48,18 +48,11 @@ Editar
 
 ---
 
-## 🖥️ Prints
-
-<div align="center">
-  <img src="https://imgur.com/placeholderprint1.png" width="400" alt="Tela de emissão" />
-  <img src="https://imgur.com/placeholderprint2.png" width="400" alt="Tela de validação" />
-</div>
-
 ---
 
 ## ⚡ Como rodar localmente
 
-```bash
+
 # Clone o repo
 git clone https://github.com/seu-usuario/educhain-certificados.git
 cd educhain-certificados
@@ -94,6 +87,8 @@ src/
   utils/
     gerarHashCertificado.js
   App.js
+
+
 🤝 Contribuindo
 Pull requests são muito bem-vindos! Sinta-se livre para sugerir melhorias, traduções, integração com NFT, etc.
 
