@@ -1,0 +1,143 @@
+[
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "hashCert",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "nomeAluno",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "curso",
+				"type": "string"
+			}
+		],
+		"name": "CertificadoEmitido",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_nomeAluno",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_curso",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_dataConclusao",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_instituicao",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_email",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_hashCert",
+				"type": "string"
+			}
+		],
+		"name": "emitirCertificado",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"name": "certificados",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "nomeAluno",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "curso",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "dataConclusao",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "instituicao",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "email",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_hashCert",
+				"type": "string"
+			}
+		],
+		"name": "validarCertificado",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "nomeAluno",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "curso",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "dataConclusao",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "instituicao",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "email",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
